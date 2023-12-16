@@ -22,15 +22,15 @@
 
         <h2>Modifier mon profil</h2>
      
-      <section>
+<section>
         <form action="ServletUpdateProfil" method="post" class="modifprofil">
           <div class="form-columns">
             <div class="form-column">
               <label for="name">Pseudo </label>
-              <input type="text" name="Pseudo" value="${ConnectedUser.pseudo}">
+              <input type="text" name="pseudo" value="${ConnectedUser.pseudo}">
               
               <label for="name">Nom </label>
-              <input type="text" name="Nom" value="${ConnectedUser.nom}">
+              <input type="text" name="nom" value="${ConnectedUser.nom}">
               
               <label for="name">Prenom </label>
               <input type="text" name="prenom" value="${ConnectedUser.prenom}">
@@ -47,19 +47,22 @@
               <input type="text" name="rue" value="${ConnectedUser.rue}">
 
               <label for="name">Code Postal </label>
-              <input type="text" name="codepostal" value="${ConnectedUser.codePostal}">
+              <input type="text" name="CP" value="${ConnectedUser.codePostal}">
               
               <label for="name">Ville </label>
-              <input type="text" name="Ville" value="${ConnectedUser.ville}">
+              <input type="text" name="ville" value="${ConnectedUser.ville}">
             </div>
             </div>
-          </form>
-          <div class="btn-modif"> 
+            
+             <div class="btn-modif"> 
           <form action = "ServletMonProfil">
           <button class="btn-modifier"type="submit">Enregistrer</button> 
           </form>   
           </div> 
+          
+          </form>
       </section>
+   
       
 </body>
 </html>
