@@ -45,15 +45,15 @@
 </select>
 
 <div>
-  <input class="" type="checkbox" checked="checked"> encheres ouvertes />
-  <input class="" type="checkbox" checked="checked"> mes encheres en cours />
-  <input class="" type="checkbox" checked="checked"> mes encheres remportées />
+  <input class="" type="checkbox" checked="checked"> encheres ouvertes
+  <input class="" type="checkbox" checked="checked"> mes encheres en cours
+  <input class="" type="checkbox" checked="checked"> mes encheres remportées
 </div>
 
 <div>
-  <input class="" type="checkbox" checked="checked"> mes ventes en cours />
-  <input class="" type="checkbox" checked="checked"> ventes non débutées />
-  <input class="" type="checkbox" checked="checked"> ventes terminées />
+  <input class="" type="checkbox" checked="checked"> mes ventes en cours
+  <input class="" type="checkbox" checked="checked"> ventes non débutées
+  <input class="" type="checkbox" checked="checked"> ventes terminées
 </div>
 
     </div>
